@@ -1,0 +1,93 @@
+.app-container{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+
+.sideBar{
+  min-height: 650px;
+}
+
+.card{
+  width: 300px;
+}
+
+/* .yyyy{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.xxx{
+  margin: 50px auto;
+  width:45rem;
+  transition: transform 0.3s; 
+}
+
+.xxx:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+.hashtags{
+  margin: 0 3px;
+}
+
+.reactions{
+  width: 100%;
+  margin:15px 0 0 0;
+
+}
+
+.dell-btn{
+  cursor: pointer;
+}
+
+.iconn{
+  tab-size: 3rem;
+}
+
+.create-post{
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
+  
+}
+
+.welcome{
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 170, 90);
+
+  text-transform: uppercase;
+}
+.cont{
+  width: 700px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.btnnn{
+  background: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px 8px;
+  font-weight: 600;
+  color: rgb(255, 170, 90);
+  border: 2px solid rgb(255, 170, 90);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btnnn:active{
+  
+  background:rgb(255, 170, 90);
+  border: 2px solid white;
+  color: white;
+  transform: scale(0.95);
+}
